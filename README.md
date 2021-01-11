@@ -1,2 +1,4 @@
-# account-management
-Java Application for Bank account Management
+
+Show us how you code!
+
+Hope to see you soon in a job interview :)

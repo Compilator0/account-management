@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="0" name="com.test.account.CustomerAccountTest" time="0.124" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14+36-1461"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/idristsafack/Compi-Land/Compi-IT/Travaux/account-management/account-management"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/idristsafack/Compi-Land/Compi-IT/Travaux/account-management/account-management"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="14+36-1461"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/kq/rg9pkvt114vdg_qtn2xvjz800000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Users/idristsafack/Applications/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/Users/idristsafack/Applications/netbeans/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/idristsafack/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="user.home" value="/Users/idristsafack"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="idristsafack"/>
+    <property name="java.class.path" value="/Users/idristsafack/Applications/netbeans/java/maven/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Users/idristsafack/Applications/netbeans/java/maven-nblib/netbeans-eventspy.jar test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/idristsafack/Applications/netbeans/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-03-17"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+  </properties>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testAccountWithoutMoneyHasZeroBalance" time="0.002"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testPrintAccountStatement" time="0.032"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawAndReportBalanceLegalBalance" time="0.001"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="[0] AccountImpl, 1251.0, AccountRuleImpl, -1.0 (testWithdrawAndReportBalanceIllegalBalance)" time="0.076"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="[1] AccountImpl, 2600.0, AccountRuleImpl, -1350.0 (testWithdrawAndReportBalanceIllegalBalance)" time="0.001"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="[2] AccountImpl, 12356.0, AccountRuleImpl, -11106.0 (testWithdrawAndReportBalanceIllegalBalance)" time="0.001"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="[3] AccountImpl, 4572.0, AccountRuleImpl, -3322.0 (testWithdrawAndReportBalanceIllegalBalance)" time="0"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawNegativeAmount" time="0.002"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawPermitionIsTrue" time="0.001"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawPermitionIsFalse" time="0"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testAddNegativeAmount" time="0.007"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testAddPositiveAmount" time="0.001"/>
+</testsuite>
