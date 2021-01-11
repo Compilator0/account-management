@@ -1,4 +1,3 @@
+Get the code and run the Maven application on your Java 11/JUnit environment.
 
-Show us how you code!
-
-Hope to see you soon in a job interview :)
+Good Luck :)

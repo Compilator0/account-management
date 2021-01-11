@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="com.test.account.CustomerAccountTest" time="0.112" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="com.test.account.CustomerAccountTest" time="0.197" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.7+8-LTS"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="/Users/idristsafack/Applications/netbeans/java/maven/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Users/idristsafack/Applications/netbeans/java/maven-nblib/netbeans-eventspy.jar test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Users/idristsafack/Applications/netbeans/java/maven-nblib/netbeans-eventspy.jar clean install"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home"/>
     <property name="user.language" value="fr"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,16 +60,16 @@
     <property name="java.vendor.version" value="18.9"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.test.account.CustomerAccountTest" name="testAccountWithoutMoneyHasZeroBalance" time="0.006"/>
-  <testcase classname="com.test.account.CustomerAccountTest" name="testPrintAccountStatement" time="0.018"/>
-  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawAndReportBalanceLegalBalance" time="0.001"/>
-  <testcase classname="com.test.account.CustomerAccountTest" name="[0] AccountImpl, 1251.0, AccountRuleImpl, -1.0 (testWithdrawAndReportBalanceIllegalBalance)" time="0.076"/>
-  <testcase classname="com.test.account.CustomerAccountTest" name="[1] AccountImpl, 2600.0, AccountRuleImpl, -1350.0 (testWithdrawAndReportBalanceIllegalBalance)" time="0"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testAccountWithoutMoneyHasZeroBalance" time="0.004"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testPrintAccountStatement" time="0.033"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawAndReportBalanceLegalBalance" time="0.006"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="[0] AccountImpl, 1251.0, AccountRuleImpl, -1.0 (testWithdrawAndReportBalanceIllegalBalance)" time="0.14"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="[1] AccountImpl, 2600.0, AccountRuleImpl, -1350.0 (testWithdrawAndReportBalanceIllegalBalance)" time="0.001"/>
   <testcase classname="com.test.account.CustomerAccountTest" name="[2] AccountImpl, 12356.0, AccountRuleImpl, -11106.0 (testWithdrawAndReportBalanceIllegalBalance)" time="0"/>
-  <testcase classname="com.test.account.CustomerAccountTest" name="[3] AccountImpl, 4572.0, AccountRuleImpl, -3322.0 (testWithdrawAndReportBalanceIllegalBalance)" time="0"/>
-  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawNegativeAmount" time="0.002"/>
-  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawPermitionIsTrue" time="0.001"/>
-  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawPermitionIsFalse" time="0"/>
-  <testcase classname="com.test.account.CustomerAccountTest" name="testAddNegativeAmount" time="0.006"/>
-  <testcase classname="com.test.account.CustomerAccountTest" name="testAddPositiveAmount" time="0.002"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="[3] AccountImpl, 4572.0, AccountRuleImpl, -3322.0 (testWithdrawAndReportBalanceIllegalBalance)" time="0.001"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawNegativeAmount" time="0.004"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawPermitionIsTrue" time="0.002"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testWithdrawPermitionIsFalse" time="0.002"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testAddNegativeAmount" time="0.004"/>
+  <testcase classname="com.test.account.CustomerAccountTest" name="testAddPositiveAmount" time="0"/>
 </testsuite>
